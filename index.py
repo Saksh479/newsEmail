@@ -33,7 +33,6 @@ FROM = "youremail@gmail.com"
 TO = 'receiver@gmail.com'
 dotenv.load_dotenv()
 PASS = os.environ.get('PASSWORD')
-print(PASS)
 msg = MIMEMultipart()
 
 msg['Subject'] = 'Top News Stories HN' + ' ' + str(now.day) + '-' + str(now.month) + '-' + str(now.year)
