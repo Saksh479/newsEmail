@@ -29,8 +29,8 @@ print('Composing Email...')
 
 SERVER = 'smtp.gmail.com'
 PORT = 587
-FROM = 'sakshamsengar479@gmail.com'
-TO = 'lusour01@gmail.com'
+FROM = "youremail@gmail.com"
+TO = 'receiver@gmail.com'
 dotenv.load_dotenv()
 PASS = os.environ.get('PASSWORD')
 print(PASS)
