@@ -31,6 +31,7 @@ SERVER = 'smtp.gmail.com'
 PORT = 587
 FROM = "youremail@gmail.com"
 TO = 'receiver@gmail.com'
+#use a .env file to store the PASSWORD of youremail@gmail.com
 dotenv.load_dotenv()
 PASS = os.environ.get('PASSWORD')
 msg = MIMEMultipart()
